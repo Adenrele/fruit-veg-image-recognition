@@ -48,3 +48,8 @@ if __name__ == '__main__':
 
 #commands streamlit run main.py
 #pipreqs
+#procfile
+#setup.sh
+#git init
+#Heroku login
+#
