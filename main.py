@@ -10,9 +10,9 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 st.title("Image Classification Demo Model")
-st.header("Fruit and vegitable image classification. \n -by Adenrele")
+st.header("Fruit and vegetable image classification. \n -by Adenrele")
 st.text("Upload an image of one of the fruit or veg listed below.")
-st.text("Fruit/vegitables included in model training includes: \n Apple, Cabbages, Carrots, Cucumbers, Egg plants, Pears and Zucchinis.")
+st.text("Fruit/vegetables included in model training include: \n Apple, Cabbages, Carrots, Cucumbers, Egg plants, Pears and Zucchinis.")
 
 def load_image():
     uploaded_file = st.file_uploader(label='Pick an image to test')
